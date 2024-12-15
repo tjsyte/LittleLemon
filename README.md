@@ -1,15 +1,16 @@
-# Little Lemon Booking Website
+Little Lemon Booking Website
+Project Overview
+The Little Lemon Booking Website was developed as part of the Meta Front-End Development course on Coursera. It serves as the final project for the Front-End Development track, demonstrating the skills and knowledge gained throughout the course.
 
-## Project Description
-This project was created during Meta's Coursera Front-End Development course. This website was the culmuniation of the Front-End Development Track.
+Project Features
+This website implements a booking application integrated into the Little Lemon Restaurant website. The project is built with React components, showcasing my ability to work with React for creating dynamic, user-friendly interfaces.
 
-This website showcased implementing a booking application on the Little Lemon Website. This was created with React Components to show an understanding of utilizing React for creating the website. This also features utilzing API calls.
+Key features of the project include:
 
-Please note: the only functionality working on this website besides the design is the Reserve a Table function.
-
-## Screenshots
-Here are some screeenshots of the application showcasing the Booking functionality.
-
-<img src="https://user-images.githubusercontent.com/20054991/226729651-63c82654-20d7-4783-b1a9-4c97afae96d4.png" width="400" /> <img src="https://user-images.githubusercontent.com/20054991/226729826-bf712977-9165-40e7-ab62-93cd6bf47ef7.png" width="400" /> <img src="https://user-images.githubusercontent.com/20054991/226729975-8cb4f6c3-e0f5-4271-bd8b-8a2f04bb623e.png" width="400" />
-
-
+Interactive Booking System: Allows users to book reservations easily through a clean and intuitive UI.
+API Integration: Utilizes API calls to fetch and manage data, offering a realistic, data-driven user experience.
+Responsive Design: The website is fully responsive, providing an optimal viewing experience across various devices and screen sizes.
+Technologies Used
+React: For creating dynamic components and managing state.
+API Calls: To fetch and display real-time data.
+CSS: To style the website and ensure a visually appealing, user-friendly interface.
