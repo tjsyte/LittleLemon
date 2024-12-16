@@ -4,10 +4,7 @@
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
 - [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
