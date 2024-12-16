@@ -1,20 +1,57 @@
-# Little Lemon Booking Website
+# LittleLemon
 
-## Project Overview
+**LittleLemon** is a web application that allows users to book reservations for their favorite dishes. This application is built using **React** and **CSS** for styling.
 
-The **Little Lemon Booking Website** was developed as part of the **Meta Front-End Development course** on Coursera. It serves as the final project for the Front-End Development track, demonstrating the skills and knowledge gained throughout the course.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Project Features
+## Installation
 
-This website implements a **booking application** integrated into the **Little Lemon Restaurant** website. The project is built with **React** components, showcasing my ability to work with React for creating dynamic, user-friendly interfaces. 
+Follow these steps to install the project on your local machine:
 
-### Key Features:
-- **Interactive Booking System:** Allows users to book reservations easily through a clean and intuitive UI.
-- **API Integration:** Utilizes API calls to fetch and manage data, offering a realistic, data-driven user experience.
-- **Responsive Design:** The website is fully responsive, providing an optimal viewing experience across various devices and screen sizes.
+### 1. Clone the repository
 
-## Technologies Used
+```bash
+git clone https://github.com/tjsyte/LittleLemon.git
+```
 
-- **React:** For creating dynamic components and managing state.
-- **API Calls:** To fetch and display real-time data.
-- **CSS:** To style the website and ensure a visually appealing, user-friendly interface.
+### 2. Install dependencies
+Navigate to the project directory:
+```bash
+cd LittleLemon
+```
+Run the following command to install all the dependencies:
+```bash
+npm install
+```
+This will install all necessary libraries listed in the package.json file.
+
+### 3. Start the development server
+Once all dependencies are installed, run the development server:
+```bash
+npm start
+```
+This will launch the app at http://localhost:3000 in your web browser.
+
+# Folder Structure
+Here's a brief overview of the project's structure:
+```bash
+LittleLemon/
+│
+├── node_modules/           # Installed dependencies
+├── public/                 # Public assets like images
+├── src/                    # Source code for the app
+│   ├── components/         # React components (Header, Footer, Booking, etc.)
+│   ├── App.css             # Global CSS for the app
+│   └── App.js              # Main React component
+├── package.json            # Project metadata and dependencies
+├── package-lock.json       # Locked versions of dependencies
+├── README.md               # Project documentation
+└── .gitignore              # Git ignore settings
+
+
+
