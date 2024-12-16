@@ -228,11 +228,11 @@ header button {
 	border-radius: 12px;
 	font-size: 16pt;
 	font-weight: bold;
-    text-decoration: none;
+	text-decoration: none;
 }
 
 header button:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 header img {
@@ -277,87 +277,89 @@ footer li a {
 /* Booking Form Styles */
 
 .booking-page {
-  background-color: #495e57; 
-  padding: 20px 0; 
+	background-color: #495e57;
+	padding: 20px 0;
 }
 
 .booking-form {
-  width: 80%;
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	width: 80%;
+	max-width: 600px;
+	margin: 30px auto;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 12px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .form-header {
-  text-align: center;
-  margin-bottom: 20px;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .form-header h3 {
-  font-size: 24px;
-  color: #495e57;
+	font-size: 24px;
+	color: #495e57;
 }
 
 .form-header p {
-  font-size: 16px;
-  color: #7d7d7d;
+	font-size: 16px;
+	color: #7d7d7d;
 }
 
 .form-fieldset {
-  border: none;
-  padding: 0;
+	border: none;
+	padding: 0;
 }
 
 .form-item {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .form-item label {
-  display: block;
-  font-size: 16px;
-  color: #495e57;
-  margin-bottom: 5px;
+	display: block;
+	font-size: 16px;
+	color: #495e57;
+	margin-bottom: 5px;
 }
 
-.form-item input, .form-item select {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  box-sizing: border-box;
+.form-item input,
+.form-item select {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
 }
 
-.form-item input:focus, .form-item select:focus {
-  border-color: #F4CE14;
-  outline: none;
+.form-item input:focus,
+.form-item select:focus {
+	border-color: #F4CE14;
+	outline: none;
 }
 
 .submit-btn {
-  width: 100%;
-  padding: 12px;
-  background-color: #F4CE14;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #F4CE14;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	text-align: center;
 }
 
 .submit-btn:hover {
-  background-color: #f4a261;
-  text-decoration: none;
+	background-color: #f4a261;
+	text-decoration: none;
 }
 
 @media (max-width: 768px) {
-  .booking-form {
-    width: 90%;
-    padding: 15px;
-  }
+	.booking-form {
+		width: 90%;
+		padding: 15px;
+	}
 }
